@@ -1,3 +1,54 @@
 body{
 	background-color: gray;
+	max-width: 1200px;
+	border: 3px solid red;
+	padding: 15px;
 }
+
+#map div{
+	display: block;	
+	margin: auto;
+	width: 50%;
+	padding: 15px;
+}
+
+#cover div{
+	margin: auto;
+	border:	3px solid green;
+}
+
+footer{
+	margin: auto;
+	width: 40%;
+	padding: 10px;
+}
+
+a:visited {
+	color: blue;
+}
+a:hover {
+	color: green;
+}
+
+.title{
+	font-family: garamond;
+	color: gold;
+}
+
+table tr td{
+	border: 1px solid green;
+	padding: 0px;
+	/*background-color: white;*/
+	/*margin: auto;*/
+}
+
+table {
+	margin: auto;
+	max-width: 40%;
+	background-image: url(./images/DiploMap.gif); /*map is way oversized for this, I don't know if I can scale the image down and apply it here*/
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    font-size: 0.8em;
+  }
